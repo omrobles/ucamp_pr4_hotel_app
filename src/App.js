@@ -3,18 +3,21 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavbarComp";
 import Home from "./components/Home";
+import Rooms from "./components/Rooms";
 import Footer from "./components/Footer";
+import { roomsInfo, imagesCaruosel } from "./helpers";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/habitaciones" element={<Rooms />} />
+        <Route path="/" element={<Home images={imagesCaruosel} />} />
+        <Route path="/habitaciones" element={<Rooms info={roomsInfo} />} />
         <Route path="/actividades" element={<Activities />} />
         <Route path="/servicios" element={<Services />} />
         <Route path="/contacto" element={<Contact />} />
+        <Route path="/reservaciones" element={<Reservations />} />
       </Routes>
       <Footer />
     </div>
@@ -22,14 +25,6 @@ function App() {
 }
 
 export default App;
-
-// function Home() {
-//   return <h1>Hola desde Home</h1>;
-// }
-
-function Rooms() {
-  return <h1>Hola desde rooms</h1>;
-}
 
 function Activities() {
   return <h1>Hola desde Activities</h1>;
@@ -41,4 +36,8 @@ function Services() {
 
 function Contact() {
   return <h1>Hola desde contacto</h1>;
+}
+
+function Reservations() {
+  return <h1>Hola desde reservaciones</h1>;
 }

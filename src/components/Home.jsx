@@ -1,17 +1,14 @@
 import React from "react";
-import { Carousel } from 'react-bootstrap'
-import img1 from "../media/lily-banse--YHSwy6uqvk-unsplash.jpg"
-import img2 from "../media/engin-akyurt-ZbzYDboN7fg-unsplash.jpg"
-import img3 from "../media/iglesia-de-santa-rosa.jpg"
+import { Carousel } from 'react-bootstrap';
 import "./Home.css";
 
-function Home() {
+function Home(props) {
     return (
         <Carousel>
           <Carousel.Item>
             <img
               className="d-inline imgSlide"
-              src={img1}
+              src={props.images[0]}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,7 +19,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-inline imgSlide"
-              src={img2}
+              src={props.images[1]}
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -33,7 +30,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block imgSlide"
-              src={img3}
+              src={props.images[2]}
               alt="Third slide"
             />
             <Carousel.Caption>
