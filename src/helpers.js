@@ -9,6 +9,8 @@ import serImg1 from "./media/brooke-lark-HlNcigvUi4Q-unsplash.jpg";
 import serImg2 from "./media/paulo-almeida-157NwUNEdxQ-unsplash.jpg";
 import serImg3 from "./media/susan-wilkinson-wG1FPyeO75Y-unsplash.jpg";
 import serImg4 from "./media/point3d-commercial-imaging-ltd-TEbVwp3WC0E-unsplash.jpg";
+import actImg1 from "./media/bernal-2.jpg";
+import actImg2 from "./media/istockphoto-486420378-612x612-1.jpg";
 
 const imagesCaruosel = [img1, img2, img3];
 
@@ -39,7 +41,18 @@ const roomsInfo = [
   },
 ];
 
-const activitiesInfo = [1, 2, 3];
+const activitiesInfo = [
+  {
+    title: "Peña de Bernal",
+    text: "No puedes visitar Bernal, sin dar un paseo alrededor de su gigantesco monolito, uno de los más grandes del mundo, y el cual –dicen- provee a sus pobladores de energía vital. Durante el equinoccio de primavera locales y viajeros la visitan para recargarse de vida.",
+    image: actImg1,
+  },
+  {
+    title: "Vida Nocturna",
+    text: "La buena vida nocturna de Querétaro se conjuga con su historia, arquitectura y cultura, teniendo elegantes restaurantes para disfrutar los platillos con una buena copa de vino, las noches en sus plazas con expresiones culturales, así como los bares y discotecas para divertirse al ritmo de la buena música y el alegre ambiente que comparten los queretanos.",
+    image: actImg2,
+  },
+];
 
 const servicesInfo = [
   {

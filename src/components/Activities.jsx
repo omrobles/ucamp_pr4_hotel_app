@@ -12,7 +12,7 @@ function Activities(props) {
                     <Card>
                     <Card.Body>
                         <Card.Title className="CardTitle">{element.title}</Card.Title>
-                        <Card.Text className="CardText">{element.description}</Card.Text>
+                        <Card.Text className="CardText">{element.text}</Card.Text>
                         </Card.Body>
                         <Card.Img variant="top" src={element.image} />
                         
