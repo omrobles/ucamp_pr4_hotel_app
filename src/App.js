@@ -4,8 +4,15 @@ import "./App.css";
 import NavBar from "./components/NavbarComp";
 import Home from "./components/Home";
 import Rooms from "./components/Rooms";
+import Activities from "./components/Activities";
+import Services from "./components/Services";
 import Footer from "./components/Footer";
-import { roomsInfo, imagesCaruosel } from "./helpers";
+import {
+  roomsInfo,
+  imagesCaruosel,
+  servicesInfo,
+  activitiesInfo,
+} from "./helpers";
 
 function App() {
   return (
@@ -14,8 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home images={imagesCaruosel} />} />
         <Route path="/habitaciones" element={<Rooms info={roomsInfo} />} />
-        <Route path="/actividades" element={<Activities />} />
-        <Route path="/servicios" element={<Services />} />
+        <Route
+          path="/actividades"
+          element={<Activities info={activitiesInfo} />}
+        />
+        <Route path="/servicios" element={<Services info={servicesInfo} />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/reservaciones" element={<Reservations />} />
       </Routes>
@@ -25,14 +35,6 @@ function App() {
 }
 
 export default App;
-
-function Activities() {
-  return <h1>Hola desde Activities</h1>;
-}
-
-function Services() {
-  return <h1>Hola desde servicios</h1>;
-}
 
 function Contact() {
   return <h1>Hola desde contacto</h1>;
