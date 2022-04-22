@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route index element={<Home images={imagesCaruosel} />} />
+        <Route path="/ucamp_pr4_hotel_app/" element={<Home images={imagesCaruosel} />} />
         <Route path="/habitaciones" element={<Rooms info={roomsInfo} />} />
         <Route
           path="/actividades"

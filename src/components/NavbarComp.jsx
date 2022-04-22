@@ -9,7 +9,7 @@ function NavBar(){
         <div>
             <Navbar className="navBar" variant="light" expand="lg">
             <Container>
-                <Navbar.Brand as={Link} to={"/"}>
+                <Navbar.Brand as={Link} to={"/ucamp_pr4_hotel_app/"}>
                     <img 
                     src={logo}
                     alt="Logo"
