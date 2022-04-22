@@ -6,7 +6,7 @@ function Services(props) {
     return (
         <Container style={{marginBottom: '30px'}}>
             <h1 className="Title">Nuestros Servicios</h1>
-            <Row lg={1} className="g-4">
+            <Row xs={1} sm={1} md={1} lg={1} className="g-4">
                 {Array.from(props.info).map((element) => (
                     <Col>
                     <Card>

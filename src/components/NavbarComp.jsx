@@ -24,7 +24,6 @@ function NavBar(){
                     <Nav.Link as={Link} to={"/habitaciones"}>Habitaciones</Nav.Link>
                     <Nav.Link as={Link} to={"/actividades"}>Actividades</Nav.Link>
                     <Nav.Link as={Link} to={"/servicios"}>Servicios</Nav.Link>
-                    <Nav.Link as={Link} to={"/contacto"}>Contacto</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

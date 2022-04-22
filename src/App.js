@@ -27,7 +27,6 @@ function App() {
           element={<Activities info={activitiesInfo} />}
         />
         <Route path="/servicios" element={<Services info={servicesInfo} />} />
-        <Route path="/contacto" element={<Contact />} />
         <Route path="/reservaciones" element={<Reservations />} />
       </Routes>
       <Footer />
@@ -37,6 +36,3 @@ function App() {
 
 export default App;
 
-function Contact() {
-  return <h1>Hola desde contacto</h1>;
-}
