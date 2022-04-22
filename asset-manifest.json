@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ucamp_pr4_hotel_app/static/css/main.9ece0570.css",
-    "main.js": "/ucamp_pr4_hotel_app/static/js/main.2cdd279a.js",
+    "main.js": "/ucamp_pr4_hotel_app/static/js/main.14da6df9.js",
     "static/media/point3d-commercial-imaging-ltd-TEbVwp3WC0E-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/point3d-commercial-imaging-ltd-TEbVwp3WC0E-unsplash.0cd81313035dae5aa18f.jpg",
     "static/media/brooke-lark-HlNcigvUi4Q-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/brooke-lark-HlNcigvUi4Q-unsplash.d1eb6e3b750ef41d2bb8.jpg",
     "static/media/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.a871ee069e7af1ff9fb9.jpg",
@@ -18,10 +18,10 @@
     "static/media/Zen_Hotel_LogoBlack.png": "/ucamp_pr4_hotel_app/static/media/Zen_Hotel_LogoBlack.faaa63d839bf9aed5146.png",
     "index.html": "/ucamp_pr4_hotel_app/index.html",
     "main.9ece0570.css.map": "/ucamp_pr4_hotel_app/static/css/main.9ece0570.css.map",
-    "main.2cdd279a.js.map": "/ucamp_pr4_hotel_app/static/js/main.2cdd279a.js.map"
+    "main.14da6df9.js.map": "/ucamp_pr4_hotel_app/static/js/main.14da6df9.js.map"
   },
   "entrypoints": [
     "static/css/main.9ece0570.css",
-    "static/js/main.2cdd279a.js"
+    "static/js/main.14da6df9.js"
   ]
 }
