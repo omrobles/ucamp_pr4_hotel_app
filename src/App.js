@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Rooms from "./components/Rooms";
 import Activities from "./components/Activities";
 import Services from "./components/Services";
+import Reservations from "./components/Reservation";
 import Footer from "./components/Footer";
 import {
   roomsInfo,
@@ -38,8 +39,4 @@ export default App;
 
 function Contact() {
   return <h1>Hola desde contacto</h1>;
-}
-
-function Reservations() {
-  return <h1>Hola desde reservaciones</h1>;
 }

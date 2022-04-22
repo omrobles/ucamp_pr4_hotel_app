@@ -5,7 +5,7 @@ import "./Rooms.css"
 
 function Rooms(props) {
     return (
-        <Container>
+        <Container style={{marginBottom: '30px', marginTop: '30px'}}>
             <h1 className="Title">Conoce nuestras habitaciones.</h1>
             <Row xs={1} sm={1} md={2} lg={3} className="g-4 rowContainer">
                 {Array.from(props.info).map((el) => (

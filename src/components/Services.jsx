@@ -4,7 +4,7 @@ import "./Services.css"
 
 function Services(props) {
     return (
-        <Container>
+        <Container style={{marginBottom: '30px'}}>
             <h1 className="Title">Nuestros Servicios</h1>
             <Row lg={1} className="g-4">
                 {Array.from(props.info).map((element) => (
