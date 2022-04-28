@@ -1,19 +1,14 @@
-name: Build and Deploy to GitHub Pages on Push
-
-on:
-  push:
-    branches:
-      - main
-
+name: Build and Deploy
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@main
+      - name: Checkout 
+        uses: actions/checkout@v3
 
       - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@main
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         env:
           REACT_APP_FIREBASE_APIKEY: ${{ secrets.REACT_APP_FIREBASE_APIKEY }}
           REACT_APP_FIREBASE_AUTHDOMAIN: ${{ secrets.REACT_APP_FIREBASE_AUTHDOMAIN }}
@@ -21,6 +16,6 @@ jobs:
           REACT_APP_FIREBASE_STORAGEBUCKET: ${{ secrets.REACT_APP_FIREBASE_STORAGEBUCKET }}
           REACT_APP_FIREBASE_MESSAGINGSENDERID: ${{ secrets.REACT_APP_FIREBASE_MESSAGINGSENDERID }}
           REACT_APP_FIREBASE_APPID: ${{ secrets.REACT_APP_FIREBASE_APPID }}
-          BRANCH: gh-pages
-          FOLDER: public
-          BUILD_SCRIPT: yarn && yarn run build
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
