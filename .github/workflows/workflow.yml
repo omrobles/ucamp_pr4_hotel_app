@@ -12,9 +12,8 @@ env:
   REACT_APP_FIREBASE_APPID: ${{ secrets.REACT_APP_FIREBASE_APPID }}   
 
 jobs:
-  job1:
-    runs-on: ubuntu-latest 
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      - name: step 1
-        ## Reference your environment variables
-        run: echo "The API key is:${{ secrets.REACT_APP_FIREBASE_APIKEY }}"
+      - name: Checkout
+        uses: actions/checkout@v4
