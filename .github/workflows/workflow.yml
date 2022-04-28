@@ -11,3 +11,10 @@ env:
   REACT_APP_FIREBASE_MESSAGINGSENDERID: ${{ secrets.REACT_APP_FIREBASE_MESSAGINGSENDERID }}
   REACT_APP_FIREBASE_APPID: ${{ secrets.REACT_APP_FIREBASE_APPID }}   
 
+jobs:
+  job1:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: step 1
+        ## Reference your environment variables
+        run: echo "The API key is:${{ secrets.REACT_APP_FIREBASE_APIKEY }}"
