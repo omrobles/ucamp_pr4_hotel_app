@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ucamp_pr4_hotel_app/static/css/main.9ece0570.css",
+    "main.js": "/ucamp_pr4_hotel_app/static/js/main.14da6df9.js",
+    "static/media/point3d-commercial-imaging-ltd-TEbVwp3WC0E-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/point3d-commercial-imaging-ltd-TEbVwp3WC0E-unsplash.0cd81313035dae5aa18f.jpg",
+    "static/media/brooke-lark-HlNcigvUi4Q-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/brooke-lark-HlNcigvUi4Q-unsplash.d1eb6e3b750ef41d2bb8.jpg",
+    "static/media/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.a871ee069e7af1ff9fb9.jpg",
+    "static/media/point3d-commercial-imaging-ltd-5BV56SdvLmo-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/point3d-commercial-imaging-ltd-5BV56SdvLmo-unsplash.edefc5c8209c827a08d5.jpg",
+    "static/media/lily-banse--YHSwy6uqvk-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/lily-banse--YHSwy6uqvk-unsplash.6ef6db913df93a631506.jpg",
+    "static/media/engin-akyurt-ZbzYDboN7fg-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/engin-akyurt-ZbzYDboN7fg-unsplash.d84137bcf967333912b5.jpg",
+    "static/media/paulo-almeida-157NwUNEdxQ-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/paulo-almeida-157NwUNEdxQ-unsplash.7472caafc348c44e85ac.jpg",
+    "static/media/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/vojtech-bruzek-Yrxr3bsPdS0-unsplash.38d4a7730b0fd53a0efe.jpg",
+    "static/media/mky-moody-AUF6Gl4wwzA-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/mky-moody-AUF6Gl4wwzA-unsplash.fc2063576eb00b3726f4.jpg",
+    "static/media/susan-wilkinson-wG1FPyeO75Y-unsplash.jpg": "/ucamp_pr4_hotel_app/static/media/susan-wilkinson-wG1FPyeO75Y-unsplash.a443e8da4913f65a5374.jpg",
+    "static/media/bernal-2.jpg": "/ucamp_pr4_hotel_app/static/media/bernal-2.94cd4575242dd6cb2c68.jpg",
+    "static/media/iglesia-de-santa-rosa.jpg": "/ucamp_pr4_hotel_app/static/media/iglesia-de-santa-rosa.a43daa56fd8ee14c9dcf.jpg",
+    "static/media/istockphoto-486420378-612x612-1.jpg": "/ucamp_pr4_hotel_app/static/media/istockphoto-486420378-612x612-1.6ec1fb2b03ef0b1bab18.jpg",
+    "static/media/Zen_Hotel_LogoBlack.png": "/ucamp_pr4_hotel_app/static/media/Zen_Hotel_LogoBlack.faaa63d839bf9aed5146.png",
+    "index.html": "/ucamp_pr4_hotel_app/index.html",
+    "main.9ece0570.css.map": "/ucamp_pr4_hotel_app/static/css/main.9ece0570.css.map",
+    "main.14da6df9.js.map": "/ucamp_pr4_hotel_app/static/js/main.14da6df9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ece0570.css",
+    "static/js/main.14da6df9.js"
+  ]
+}
